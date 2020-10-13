@@ -17,16 +17,19 @@
         android:usesCleartextTraffic="true">
         <activity android:name=".DistanceSetActivity"></activity>
         <activity android:name=".MainActivity2" />
-        <activity android:name=".TooClosePageActivity" />
-        <activity android:name=".TimeSetActivity"></activity>
-        <activity
-            android:name=".LoginPageActivity"
-            android:screenOrientation="nosensor">
+        <activity android:name=".TooClosePageActivity"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".TimeSetActivity"></activity>
+        <activity
+            android:name=".LoginPageActivity"
+            android:screenOrientation="nosensor">
+
         </activity>
         <activity android:name=".JoinPageActivity" />
     </application>
