@@ -39,7 +39,9 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:text="사용 거리 설정"
+            android:background="@color/colorLightBeige">
 
             <TextView
                 android:id="@+id/textView8"
@@ -49,6 +51,7 @@
                 android:fontFamily="@font/nanumbarunpenb"
                 android:gravity="center_horizontal"
                 android:text="몇 cm 떨어져서 사용할건가요?"
+                android:background="@color/colorLightBeige"
                 android:textSize="26sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
