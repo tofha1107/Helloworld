@@ -46,7 +46,7 @@
             <Button
                 android:id="@+id/tajo1_button"
                 android:layout_width="248dp"
-                android:layout_height="110"
+                android:layout_height="110dp"
                 android:layout_marginStart="152dp"
                 android:layout_marginTop="108dp"
                 android:background="@drawable/mybutton"
@@ -68,7 +68,7 @@
             <Button
                 android:id="@+id/tajo3_button"
                 android:layout_width="248dp"
-                android:layout_height="110"
+                android:layout_height="110dp"
                 android:layout_marginStart="152dp"
                 android:layout_marginTop="432dp"
                 android:background="@drawable/mybutton"
@@ -90,7 +90,7 @@
             <Button
                 android:id="@+id/tajo2_button"
                 android:layout_width="248dp"
-                android:layout_height="110"
+                android:layout_height="110dp"
                 android:layout_marginStart="152dp"
                 android:layout_marginTop="272dp"
                 android:background="@drawable/mybutton"

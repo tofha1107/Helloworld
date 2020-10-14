@@ -15,9 +15,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar"
         android:usesCleartextTraffic="true">
-        <activity android:name=".PlayVideo"></activity>
+        <activity android:name=".PlayVideo" />
         <activity android:name=".DistanceSetActivity" />
-        <activity android:name=".MainActivity2" />
         <activity
             android:name=".TooClosePageActivity"
             android:screenOrientation="landscape">
