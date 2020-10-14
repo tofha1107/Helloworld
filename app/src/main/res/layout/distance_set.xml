@@ -22,41 +22,61 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="52dp"
-            android:orientation="horizontal"
-            android:background="@color/colorLightBeige"></LinearLayout>
+            android:layout_height="48dp"
+            android:background="@color/colorLightBeige"
+            android:orientation="horizontal"></LinearLayout>
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="사용 거리 설정"
+            android:layout_height="80dp"
             android:background="@color/colorLightBeige"
             android:fontFamily="@font/nanumbarunpenb"
             android:gravity="center_horizontal"
+            android:text="사용 거리 설정"
             android:textColor="#F06292"
-            android:textSize="50sp"/>
+            android:textSize="50sp" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="사용 거리 설정"
-            android:background="@color/colorLightBeige">
+            android:background="@color/colorLightBeige"
+            android:text="사용 거리 설정">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="180dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/talkb" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="217dp"
+                android:layout_height="275dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="32dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ipeach1" />
 
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="128dp"
+                android:layout_marginStart="36dp"
+                android:background="@color/colorLightBeige"
                 android:fontFamily="@font/nanumbarunpenb"
                 android:gravity="center_horizontal"
-                android:text="몇 cm 떨어져서 사용할건가요?"
-                android:background="@color/colorLightBeige"
+                android:text="얼마나 떨어져서\n 사용할건가요?"
                 android:textSize="26sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.111" />
+                app:layout_constraintVertical_bias="0.121" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>
