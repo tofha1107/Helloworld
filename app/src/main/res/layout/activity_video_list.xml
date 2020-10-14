@@ -84,6 +84,8 @@
                 android:layout_width="137dp"
                 android:layout_height="254dp"
                 app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/tajo3_button"
+                app:layout_constraintHorizontal_bias="0.266"
                 app:layout_constraintStart_toStartOf="parent"
                 app:srcCompat="@drawable/tajo3" />
 

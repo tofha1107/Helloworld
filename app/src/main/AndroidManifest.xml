@@ -18,6 +18,13 @@
         android:usesCleartextTraffic="true">
         <activity android:name=".MainPage"></activity>
         <activity android:name=".PlayVideo" />
+        <activity android:name=".videoList">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".DistanceSetActivity" />
         <activity
             android:name=".TooClosePageActivity"
@@ -26,11 +33,7 @@
         <activity
             android:name=".LoginPageActivity"
             android:screenOrientation="nosensor">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".JoinPageActivity" />
     </application>
