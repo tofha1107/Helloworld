@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".videoList">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:orientation="horizontal"
+            android:background="@color/colorLightBeige"></LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorLightBeige"
+            android:fontFamily="@font/nanumbarunpenb"
+            android:gravity="center_horizontal"
+            android:text="눈운동 영상"
+            android:textColor="#F06292"
+            android:textSize="50sp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorLightBeige"
+            android:text="사용 거리 설정">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="137dp"
+                android:layout_height="136dp"
+                app:srcCompat="@drawable/tajo1"
+                tools:layout_editor_absoluteX="6dp"
+                tools:layout_editor_absoluteY="81dp" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="248dp"
+                android:layout_height="110"
+                android:layout_marginStart="156dp"
+                android:layout_marginTop="88dp"
+                android:background="@drawable/mybutton"
+                android:text="타조 운동"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="248dp"
+                android:layout_height="110"
+                android:layout_marginStart="156dp"
+                android:layout_marginTop="228dp"
+                android:background="@drawable/mybutton"
+                android:text="타조 운동"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="248dp"
+                android:layout_height="110"
+                android:layout_marginStart="92dp"
+                android:layout_marginTop="448dp"
+                android:background="@drawable/mybutton"
+                android:text="타조 운동"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:background="@color/colorLightBeige"
+                android:fontFamily="@font/nanumbarunpenb"
+                android:gravity="center_horizontal"
+                android:text="눈 운동 영상을 골라보세요!"
+                android:textSize="26sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.051" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="138dp"
+                android:layout_height="234dp"
+                android:layout_marginTop="156dp"
+                android:layout_marginEnd="264dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/tajo2" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="141dp"
+                android:layout_height="154dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="164dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/tajo3" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
