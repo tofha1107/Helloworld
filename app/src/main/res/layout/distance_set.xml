@@ -132,6 +132,7 @@
                 android:layout_marginBottom="88dp"
                 android:background="@drawable/mybutton"
                 android:fontFamily="@font/nanumbarunpenb"
+                android:onClick="onClick"
                 android:text="다음 >"
                 android:textColor="#F06292"
                 android:textSize="20sp"
