@@ -43,49 +43,69 @@
             android:background="@color/colorLightBeige"
             android:text="사용 거리 설정">
 
+            <Button
+                android:id="@+id/tajo1_button"
+                android:layout_width="248dp"
+                android:layout_height="110"
+                android:layout_marginStart="152dp"
+                android:layout_marginTop="108dp"
+                android:background="@drawable/mybutton"
+                android:text="타조 운동 (1:45)"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
             <ImageView
                 android:id="@+id/imageView1"
+                android:layout_width="141dp"
+                android:layout_height="92dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="116dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/tajo1" />
+
+            <Button
+                android:id="@+id/tajo3_button"
+                android:layout_width="248dp"
+                android:layout_height="110"
+                android:layout_marginStart="152dp"
+                android:layout_marginTop="432dp"
+                android:background="@drawable/mybutton"
+                android:text="타조 운동 (4:05)"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView3"
                 android:layout_width="137dp"
-                android:layout_height="136dp"
-                app:srcCompat="@drawable/tajo1"
-                tools:layout_editor_absoluteX="6dp"
-                tools:layout_editor_absoluteY="81dp" />
+                android:layout_height="254dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/tajo3" />
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/tajo2_button"
                 android:layout_width="248dp"
                 android:layout_height="110"
-                android:layout_marginStart="156dp"
-                android:layout_marginTop="88dp"
+                android:layout_marginStart="152dp"
+                android:layout_marginTop="272dp"
                 android:background="@drawable/mybutton"
-                android:text="타조 운동"
+                android:text="타조 운동 (3:00)"
                 android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <Button
-                android:id="@+id/button10"
-                android:layout_width="248dp"
-                android:layout_height="110"
-                android:layout_marginStart="156dp"
-                android:layout_marginTop="228dp"
-                android:background="@drawable/mybutton"
-                android:text="타조 운동"
-                android:textSize="20sp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/button11"
-                android:layout_width="248dp"
-                android:layout_height="110"
-                android:layout_marginStart="92dp"
-                android:layout_marginTop="448dp"
-                android:background="@drawable/mybutton"
-                android:text="타조 운동"
-                android:textSize="20sp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="138dp"
+                android:layout_height="234dp"
+                android:layout_marginTop="208dp"
+                android:layout_marginEnd="268dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/tajo2" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -101,26 +121,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.051" />
-
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="138dp"
-                android:layout_height="234dp"
-                android:layout_marginTop="156dp"
-                android:layout_marginEnd="264dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/tajo2" />
-
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="141dp"
-                android:layout_height="154dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginBottom="164dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:srcCompat="@drawable/tajo3" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
