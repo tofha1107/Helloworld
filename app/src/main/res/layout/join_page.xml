@@ -164,7 +164,10 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical|center_horizontal"
                             android:fontFamily="@font/nanumbarunpenb"
+                            android:textStyle="bold"
                             android:text="남성"
+                            android:textColor="@color/colorRadioGray"
+                            android:textSize="15sp"
                             android:background="@color/colorLightBeige"/>
 
                         <RadioButton
@@ -173,7 +176,10 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical|center_horizontal"
                             android:fontFamily="@font/nanumbarunpenb"
+                            android:textColor="@color/colorRadioGray"
+                            android:textStyle="bold"
                             android:text="여성"
+                            android:textSize="15sp"
                             android:background="@color/colorLightBeige"/>
 
                     </RadioGroup>
