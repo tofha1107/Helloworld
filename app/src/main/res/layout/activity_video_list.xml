@@ -40,8 +40,8 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="사용 거리 설정"
-            android:background="@color/colorLightBeige">
+            android:background="@color/colorLightBeige"
+            android:text="사용 거리 설정">
 
             <ImageView
                 android:id="@+id/imageView1"
@@ -55,8 +55,8 @@
                 android:id="@+id/button1"
                 android:layout_width="248dp"
                 android:layout_height="110"
-                android:layout_marginStart="144dp"
-                android:layout_marginTop="92dp"
+                android:layout_marginStart="156dp"
+                android:layout_marginTop="88dp"
                 android:background="@drawable/mybutton"
                 android:text="타조 운동"
                 android:textSize="20sp"
@@ -67,8 +67,8 @@
                 android:id="@+id/button10"
                 android:layout_width="248dp"
                 android:layout_height="110"
-                android:layout_marginStart="144dp"
-                android:layout_marginTop="232dp"
+                android:layout_marginStart="156dp"
+                android:layout_marginTop="228dp"
                 android:background="@drawable/mybutton"
                 android:text="타조 운동"
                 android:textSize="20sp"
@@ -79,8 +79,8 @@
                 android:id="@+id/button11"
                 android:layout_width="248dp"
                 android:layout_height="110"
-                android:layout_marginStart="120dp"
-                android:layout_marginTop="456dp"
+                android:layout_marginStart="92dp"
+                android:layout_marginTop="448dp"
                 android:background="@drawable/mybutton"
                 android:text="타조 운동"
                 android:textSize="20sp"
@@ -104,20 +104,20 @@
 
             <ImageView
                 android:id="@+id/imageView5"
-                android:layout_width="129dp"
-                android:layout_height="235dp"
+                android:layout_width="138dp"
+                android:layout_height="234dp"
                 android:layout_marginTop="156dp"
-                android:layout_marginEnd="280dp"
+                android:layout_marginEnd="264dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/tajo2" />
 
             <ImageView
                 android:id="@+id/imageView6"
-                android:layout_width="128dp"
-                android:layout_height="155dp"
-                android:layout_marginStart="156dp"
-                android:layout_marginBottom="156dp"
+                android:layout_width="141dp"
+                android:layout_height="154dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="164dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:srcCompat="@drawable/tajo3" />
