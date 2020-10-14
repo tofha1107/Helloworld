@@ -7,14 +7,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainPageeeActivity extends AppCompatActivity implements View.OnClickListener{
+public class MainPageActivity extends AppCompatActivity implements View.OnClickListener{
 
     private Button start_button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_pageee);
+        setContentView(R.layout.main_page);
 
         start_button = (Button) findViewById(R.id.start_button);
         start_button.setOnClickListener(this);
@@ -23,7 +23,7 @@ public class MainPageeeActivity extends AppCompatActivity implements View.OnClic
     @Override
     public void onClick(View v) {
         if(v.getId() == R.id.start_button){
-            Intent intent = new Intent(this, DistanceSetActivity.class);
+            Intent intent = new Intent(this, TimeSetActivity.class);
             startActivity(intent);
         }
     }

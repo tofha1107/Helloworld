@@ -66,24 +66,21 @@ public class LoginPageActivity extends AppCompatActivity implements View.OnClick
             delayHandler.postDelayed(new Runnable() {
                 @Override
                 public void run() {
-                   final Intent  intent = new Intent(getApplicationContext(), MainPageeeActivity.class);
+                   final Intent  intent = new Intent(getApplicationContext(), DistanceSetActivity.class);
                     startActivity(intent);
                 }
             }, 500);
-
-
-
 
         }
 
     }
 
     public void sendRequest(){
-        String url = "http://172.30.1.41:8081/Project/LoginService";
+        String url = "http://172.30.1.45:8081/Project/LoginService";
         StringRequest request = new StringRequest(
                 Request.Method.POST,
                 url,
-                new Response.Listener<String>() {  //응답을 문자열로 받아서 여기다 넣어달란말임(응답을 성공적으로 받았을 떄 이메소드가 자동으로 호출됨
+                new Response.Listener<String>() {  //응답을 문자열로 받아서 여기다 넣어달란말임(응답을 성공적으로 받았을 때 이메소드가 자동으로 호출됨
                     @Override
                     public void onResponse(String response) {
                         try {

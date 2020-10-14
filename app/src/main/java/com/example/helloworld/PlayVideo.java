@@ -14,9 +14,9 @@ public class PlayVideo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_play_video);
         VideoView videoView = findViewById(R.id.videoView);
-        //String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.eyes1;
-       // Uri uri = Uri.parse(videoPath);
-      //  videoView.setVideoURI(uri);
+        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.eyes1;
+        Uri uri = Uri.parse(videoPath);
+        videoView.setVideoURI(uri);
 
         MediaController mediaController = new MediaController(this);
         videoView.setMediaController(mediaController);

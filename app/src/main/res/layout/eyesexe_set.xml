@@ -171,13 +171,15 @@
                 android:id="@+id/set_finish_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="88dp"
                 android:background="@drawable/mybutton"
+                android:fontFamily="@font/nanumbarunpenb"
                 android:text="설정 완료"
                 android:textColor="#F06292"
-                android:fontFamily="@font/nanumbarunpenb"
                 android:textSize="18sp"
-                tools:layout_editor_absoluteX="163dp"
-                tools:layout_editor_absoluteY="493dp" />
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>
