@@ -15,28 +15,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar"
         android:usesCleartextTraffic="true">
-        <activity android:name=".MainPageActivity">
+        <activity android:name=".PlayVideo"></activity>
+        <activity android:name=".DistanceSetActivity" />
+        <activity android:name=".MainActivity2" />
+        <activity
+            android:name=".TooClosePageActivity"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".EyesexeSetActivity"></activity>
-        <activity android:name=".videoList"></activity>
-        <activity android:name=".PlayVideo" />
-        <activity android:name=".DistanceSetActivity" />
-        <activity
-            android:name=".TooClosePageActivity"
-            android:screenOrientation="landscape">
-
-        </activity>
         <activity android:name=".TimeSetActivity" />
         <activity
             android:name=".LoginPageActivity"
-            android:screenOrientation="nosensor">
-
-        </activity>
+            android:screenOrientation="nosensor" />
         <activity android:name=".JoinPageActivity" />
     </application>
 
