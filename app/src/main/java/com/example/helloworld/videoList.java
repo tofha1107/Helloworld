@@ -35,14 +35,10 @@ public class videoList extends AppCompatActivity implements View.OnClickListener
         if(v.getId() == R.id.tajo1_button){
             Intent intent = new Intent(this, PlayVideo.class);
             startActivity(intent);
-        }
-
-        if(v.getId() == R.id.tajo2_button){
+        }else if(v.getId() == R.id.tajo2_button){
             Intent intent = new Intent(this, PlayVideo.class);
             startActivity(intent);
-        }
-
-        if(v.getId() == R.id.tajo3_button){
+        }else if(v.getId() == R.id.tajo3_button){
             Intent intent = new Intent(this, PlayVideo.class);
             startActivity(intent);
         }

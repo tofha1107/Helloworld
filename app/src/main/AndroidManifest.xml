@@ -6,7 +6,7 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -16,25 +16,23 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar"
         android:usesCleartextTraffic="true">
-        <activity
-            android:name=".RingtoneActivity"
-            android:label="@string/title_activity_ringtone"
-            android:theme="@style/AppTheme.NoActionBar.NoActionBar"></activity>
+        <activity android:name=".MainPage"></activity>
+        <activity android:name=".test"></activity>
         <activity android:name=".PlayVideo" />
         <activity android:name=".DistanceSetActivity" />
         <activity
             android:name=".TooClosePageActivity"
-            android:screenOrientation="landscape">
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".TimeSetActivity" />
+        <activity
+            android:name=".LoginPageActivity"
+            android:screenOrientation="nosensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TimeSetActivity" />
-        <activity
-            android:name=".LoginPageActivity"
-            android:screenOrientation="nosensor" />
         <activity android:name=".JoinPageActivity" />
     </application>
 

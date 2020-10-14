@@ -50,6 +50,7 @@
                 android:layout_marginStart="152dp"
                 android:layout_marginTop="108dp"
                 android:background="@drawable/mybutton"
+                android:onClick="onClick"
                 android:text="타조 운동 (1:45)"
                 android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -72,6 +73,7 @@
                 android:layout_marginStart="152dp"
                 android:layout_marginTop="432dp"
                 android:background="@drawable/mybutton"
+                android:onClick="onClick"
                 android:text="타조 운동 (4:05)"
                 android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -82,6 +84,8 @@
                 android:layout_width="137dp"
                 android:layout_height="254dp"
                 app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/tajo3_button"
+                app:layout_constraintHorizontal_bias="0.266"
                 app:layout_constraintStart_toStartOf="parent"
                 app:srcCompat="@drawable/tajo3" />
 
@@ -92,6 +96,7 @@
                 android:layout_marginStart="152dp"
                 android:layout_marginTop="272dp"
                 android:background="@drawable/mybutton"
+                android:onClick="onClick"
                 android:text="타조 운동 (3:00)"
                 android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="parent"
