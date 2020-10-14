@@ -18,20 +18,21 @@
         <activity android:name=".EyesexeSetActivity"></activity>
         <activity android:name=".PlayVideo" />
         <activity android:name=".DistanceSetActivity" />
-        <activity android:name=".MainActivity2" />
         <activity
             android:name=".TooClosePageActivity"
             android:screenOrientation="landscape">
+
+        </activity>
+        <activity android:name=".TimeSetActivity" />
+        <activity
+            android:name=".LoginPageActivity"
+            android:screenOrientation="nosensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TimeSetActivity" />
-        <activity
-            android:name=".LoginPageActivity"
-            android:screenOrientation="nosensor" />
         <activity android:name=".JoinPageActivity" />
     </application>
 

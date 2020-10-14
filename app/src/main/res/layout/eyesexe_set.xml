@@ -40,48 +40,98 @@
             <RadioGroup
                 android:layout_width="358dp"
                 android:layout_height="125dp"
-                android:layout_marginBottom="152dp"
+                android:layout_marginBottom="160dp"
                 android:orientation="horizontal"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.686"
-                app:layout_constraintStart_toStartOf="parent">
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent" >
 
-                <RadioButton
-                    android:id="@+id/radioButton6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@color/colorLightBeige"
-                    android:fontFamily="@font/nanumbarunpenb"
-                    android:text=" 5분"
-                    android:textColor="@color/colorRadioGray"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
 
-                <RadioButton
-                    android:id="@+id/radioButton7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@color/colorLightBeige"
-                    android:fontFamily="@font/nanumbarunpenb"
-                    android:text=" 10분"
-                    android:textColor="@color/colorRadioGray"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    <RadioButton
+                        android:id="@+id/radioButton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="36dp"
+                        android:layout_marginBottom="24dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorLightBeige"
+                        android:fontFamily="@font/nanumbarunpenb"
+                        android:text=" 직접입력"
+                        android:textColor="@color/colorRadioGray"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
 
-                <RadioButton
-                    android:id="@+id/radioButton8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@color/colorLightBeige"
-                    android:fontFamily="@font/nanumbarunpenb"
-                    android:text=" 30분"
-                    android:textColor="@color/colorRadioGray"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    <RadioButton
+                        android:id="@+id/radioButton8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="40dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorLightBeige"
+                        android:fontFamily="@font/nanumbarunpenb"
+                        android:text=" 30분"
+                        android:textColor="@color/colorRadioGray"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="@+id/radioButton7"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/radioButton7"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorLightBeige"
+                        android:fontFamily="@font/nanumbarunpenb"
+                        android:text=" 10분"
+                        android:textColor="@color/colorRadioGray"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toStartOf="@+id/radioButton8"
+                        app:layout_constraintHorizontal_bias="0.511"
+                        app:layout_constraintStart_toEndOf="@+id/radioButton6"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="28dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorLightBeige"
+                        android:fontFamily="@font/nanumbarunpenb"
+                        android:text=" 5분"
+                        android:textColor="@color/colorRadioGray"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="@+id/radioButton7"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/radioButton7" />
+
+                    <EditText
+                        android:id="@+id/editTextTextPersonName4"
+                        android:layout_width="91dp"
+                        android:layout_height="54dp"
+                        android:layout_marginBottom="16dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:fontFamily="@font/nanumbarunpenb"
+                        android:hint="숫자만"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.157"
+                        app:layout_constraintStart_toEndOf="@+id/radioButton2" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
             </RadioGroup>
 
             <ImageView
@@ -116,6 +166,18 @@
                 android:textSize="26sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/set_finish_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:text="설정 완료"
+                android:textColor="#F06292"
+                android:fontFamily="@font/nanumbarunpenb"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="163dp"
+                tools:layout_editor_absoluteY="493dp" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>

@@ -54,6 +54,7 @@
                 android:background="@drawable/mybutton"
                 android:fontFamily="@font/nanumbarunpenb"
                 android:text="다음 >"
+                android:textColor="#F06292"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -98,11 +99,11 @@
             <RadioGroup
                 android:layout_width="358dp"
                 android:layout_height="125dp"
-                android:layout_marginBottom="152dp"
+                android:layout_marginBottom="148dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.686"
-                app:layout_constraintStart_toStartOf="parent">
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent" >
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -114,6 +115,8 @@
                         android:id="@+id/radioButton"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginStart="36dp"
+                        android:layout_marginBottom="24dp"
                         android:layout_weight="1"
                         android:background="@color/colorLightBeige"
                         android:fontFamily="@font/nanumbarunpenb"
@@ -121,8 +124,8 @@
                         android:textColor="@color/colorRadioGray"
                         android:textSize="20sp"
                         android:textStyle="bold"
-                        tools:layout_editor_absoluteX="66dp"
-                        tools:layout_editor_absoluteY="77dp" />
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
 
                     <RadioButton
                         android:id="@+id/radioButton6"
@@ -153,13 +156,14 @@
                         android:textColor="@color/colorRadioGray"
                         android:textSize="20sp"
                         android:textStyle="bold"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        tools:layout_editor_absoluteY="16dp" />
+                        app:layout_constraintBottom_toBottomOf="@+id/radioButton7"
+                        app:layout_constraintEnd_toEndOf="parent" />
 
                     <RadioButton
                         android:id="@+id/radioButton7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
                         android:layout_weight="1"
                         android:background="@color/colorLightBeige"
                         android:fontFamily="@font/nanumbarunpenb"
@@ -167,25 +171,25 @@
                         android:textColor="@color/colorRadioGray"
                         android:textSize="20sp"
                         android:textStyle="bold"
-                        app:layout_constraintBottom_toBottomOf="@+id/radioButton8"
                         app:layout_constraintEnd_toStartOf="@+id/radioButton8"
-                        app:layout_constraintHorizontal_bias="0.569"
+                        app:layout_constraintHorizontal_bias="0.6"
                         app:layout_constraintStart_toEndOf="@+id/radioButton6"
-                        app:layout_constraintTop_toTopOf="@+id/radioButton8"
-                        app:layout_constraintVertical_bias="0.0" />
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <EditText
                         android:id="@+id/editTextTextPersonName2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="91dp"
+                        android:layout_height="54dp"
+                        android:layout_marginBottom="16dp"
                         android:ems="10"
                         android:fontFamily="@font/nanumbarunpenb"
-                        android:hint="숫자만 입력"
+                        android:hint="숫자만"
                         android:inputType="textPersonName"
-                        tools:layout_editor_absoluteX="184dp"
-                        tools:layout_editor_absoluteY="65dp" />
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.15"
+                        app:layout_constraintStart_toEndOf="@+id/radioButton" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
-
             </RadioGroup>
 
         </androidx.constraintlayout.widget.ConstraintLayout>

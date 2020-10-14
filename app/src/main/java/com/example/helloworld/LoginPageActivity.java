@@ -66,7 +66,7 @@ public class LoginPageActivity extends AppCompatActivity implements View.OnClick
             delayHandler.postDelayed(new Runnable() {
                 @Override
                 public void run() {
-                   final Intent  intent = new Intent(getApplicationContext(), TimeSetActivity.class);
+                   final Intent  intent = new Intent(getApplicationContext(), MainPageeeActivity.class);
                     startActivity(intent);
                 }
             }, 500);
