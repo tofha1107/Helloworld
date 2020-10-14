@@ -15,7 +15,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar"
         android:usesCleartextTraffic="true">
-        <activity android:name=".alertSound"></activity>
         <activity android:name=".PlayVideo" />
         <activity android:name=".DistanceSetActivity" />
         <activity

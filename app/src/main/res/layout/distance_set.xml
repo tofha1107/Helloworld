@@ -43,6 +43,53 @@
             android:background="@color/colorLightBeige"
             android:text="사용 거리 설정">
 
+            <RadioGroup
+                android:layout_width="358dp"
+                android:layout_height="125dp"
+                android:layout_marginBottom="120dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.686"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorLightBeige"
+                    android:fontFamily="@font/nanumbarunpenb"
+                    android:text="30cm"
+                    android:textColor="@color/colorRadioGray"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radioButton7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorLightBeige"
+                    android:fontFamily="@font/nanumbarunpenb"
+                    android:text="40cm"
+                    android:textColor="@color/colorRadioGray"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radioButton8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorLightBeige"
+                    android:fontFamily="@font/nanumbarunpenb"
+                    android:text="50cm"
+                    android:textColor="@color/colorRadioGray"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="wrap_content"
@@ -77,6 +124,20 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.121" />
+
+            <Button
+                android:id="@+id/distance_next_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="88dp"
+                android:background="@drawable/mybutton"
+                android:fontFamily="@font/nanumbarunpenb"
+                android:text="다음 >"
+                android:textColor="#F06292"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>

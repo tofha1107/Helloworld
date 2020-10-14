@@ -285,6 +285,7 @@
                     android:background="@drawable/mybutton"
                     android:fontFamily="@font/nanumbarunpenb"
                     android:text="가입하기"
+                    android:textColor="#F06292"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"

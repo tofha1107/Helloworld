@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".JoinPageActivity"
-    android:background="@color/colorLightBeige">
+    android:background="@color/colorLightBeige"
+    
+    >
 
     <Button
         android:id="@+id/join_button"
@@ -68,5 +70,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ipeach1" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
