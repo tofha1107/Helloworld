@@ -7,6 +7,8 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
 
     <application
         android:allowBackup="true"
@@ -17,7 +19,6 @@
         android:theme="@style/AppTheme.NoActionBar"
         android:usesCleartextTraffic="true">
         <activity android:name=".MainPage"></activity>
-        <activity android:name=".test"></activity>
         <activity android:name=".PlayVideo" />
         <activity android:name=".DistanceSetActivity" />
         <activity
@@ -27,13 +28,17 @@
         <activity
             android:name=".LoginPageActivity"
             android:screenOrientation="nosensor">
+        </activity>
+        <activity android:name=".JoinPageActivity" />
+        <activity android:name=".alertPage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".JoinPageActivity" />
+        <activity android:name=".audioRecord">
+
+        </activity>
     </application>
 
 </manifest>

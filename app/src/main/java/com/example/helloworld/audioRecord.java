@@ -100,26 +100,6 @@ public class audioRecord extends AppCompatActivity implements AutoPermissionsLis
         }
     }
 
-//    public void startRecording() {
-//        if (recorder == null) {
-//            recorder = new MediaRecorder();
-//        }
-//        // 시작하는 코드 한번 넣어보자 ...
-//        // recorder.start(); 1차시도 해당 되는 메소드도 실행되지 않았음..
-//        recorder.setAudioSource(MediaRecorder.AudioSource.MIC);
-//        recorder.setOutputFormat(MediaRecorder.OutputFormat.MPEG_4);
-//        recorder.setAudioEncoder(MediaRecorder.AudioEncoder.DEFAULT);
-//        recorder.setOutputFile(filename);
-//
-//
-//        try {
-//            recorder.prepare();
-//            recorder.start();
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//    }
-
     public void stopRecording() {
         if (recorder == null) {
             return;
@@ -234,13 +214,6 @@ public class audioRecord extends AppCompatActivity implements AutoPermissionsLis
         }
     }
 
-//    @Override
-//    public void onRequestPermissionsResult(int requestCode, String permissions[],
-//                                           int[] grantResults) {
-//        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-//        AutoPermissions.Companion.parsePermissions(this, requestCode, permissions, this);
-//    }
-//
     @Override
     public void onDenied(int requestCode, String[] permissions) {
         Toast.makeText(this, "permissions denied : " + permissions.length,
