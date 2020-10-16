@@ -43,11 +43,26 @@
             android:background="@color/colorLightBeige">
 
             <Button
+                android:id="@+id/record_sound"
+                android:layout_width="142dp"
+                android:layout_height="71dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="156dp"
+                android:background="@drawable/mybutton"
+                android:fontFamily="@font/nanumbarunpenb"
+                android:onClick="on"
+                android:text="알림음 녹음하기"
+
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
                 android:id="@+id/basic_sound"
                 android:layout_width="142dp"
                 android:layout_height="71dp"
-                android:layout_marginStart="40dp"
-                android:layout_marginBottom="140dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginBottom="156dp"
                 android:background="@drawable/mybutton"
                 android:fontFamily="@font/nanumbarunpenb"
                 android:text="기본음 사용하기"
@@ -56,15 +71,14 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <Button
-                android:id="@+id/record_sound"
+                android:id="@+id/record_sound2"
                 android:layout_width="142dp"
                 android:layout_height="71dp"
-                android:layout_marginEnd="40dp"
-                android:layout_marginBottom="140dp"
+                android:layout_marginEnd="132dp"
+                android:layout_marginBottom="64dp"
                 android:background="@drawable/mybutton"
                 android:fontFamily="@font/nanumbarunpenb"
-                android:text="알림음 녹음하기"
-                android:onClick="on"
+                android:text="녹음파일 사용하기"
                 android:textSize="20sp"
 
                 app:layout_constraintBottom_toBottomOf="parent"
